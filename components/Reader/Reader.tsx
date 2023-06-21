@@ -14,6 +14,7 @@ const Reader = () => {
     function startReading(wordsArray: string[]) {
       if (wordsArray.length === 0) {
         setIsReading(false);
+
         return;
       }
       setCurrentWord(wordsArray[0]);
@@ -76,7 +77,7 @@ const Reader = () => {
           >
             Clear
           </button>
-          <div className="self-center">
+          <div className="self-center text-2xl">
             <label htmlFor="wpm">WPM: </label>
             <input 
               id="wpm" 
