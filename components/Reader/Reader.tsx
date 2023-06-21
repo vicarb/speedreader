@@ -77,7 +77,7 @@ const Reader = () => {
           >
             Clear
           </button>
-          <div className="self-center text-2xl">
+          <div className="self-center text-2xl font-semibold">
             <label htmlFor="wpm">WPM: </label>
             <input 
               id="wpm" 
