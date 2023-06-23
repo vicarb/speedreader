@@ -47,7 +47,7 @@ const Reader = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2 bg-gray-100">
-    <h1 className="text-2xl font-bold mb-4">Speed Reading Application</h1>
+    <h1 className="text-2xl md:text-4xl font-bold mb-4">Speed Reading Application</h1>
     <div className="p-6 bg-white shadow-md rounded-md w-2/3">
       <div className="relative h-64 overflow-hidden">
         {isReading ? (
