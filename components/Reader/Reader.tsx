@@ -47,10 +47,10 @@ const Reader = () => {
   return (
     <div className={`flex flex-col items-center justify-center min-h-screen py-2 ${nightMode ? 'bg-gray-900 text-white' : 'bg-gray-100 text-black'}`}>
       <h1 className="text-2xl md:text-4xl font-bold mb-4">Speed Reading Application</h1>
-      <div className={`p-6 bg-white shadow-md rounded-md w-full md:w-2/3 ${nightMode ? 'bg-gray-800' : 'bg-white'}`}>
-        <div className="relative h-64 overflow-hidden">
+      <div className={`p-6 shadow-md rounded-md w-full md:w-2/3 ${nightMode ? 'bg-gray-800' : 'bg-white'}`}>
+        <div className={`relative h-64 overflow-hidden ${nightMode ? 'bg-gray-900' : 'bg-white'}`}>
           {isReading ? (
-            <div className="absolute inset-0 flex items-center justify-center text-3xl font-bold text-gray-700">
+            <div className={`absolute inset-0 flex items-center justify-center text-3xl font-bold ${nightMode ? 'text-white' : 'text-gray-700'}`}>
               {currentWord}
             </div>
           ) : (
