@@ -58,7 +58,7 @@ const Reader = () => {
               className={`w-full h-full p-2 mb-4 border-gray-300 rounded-md ${nightMode ? 'text-white bg-gray-900' : 'text-black bg-white'}`} 
               value={text} 
               onChange={(e) => setText(e.target.value)}
-              placeholder="Type or paste your text here"
+              placeholder="Insert your text here"
             />
           )}
         </div>
