@@ -82,7 +82,7 @@ const Reader = () => {
             >
               {nightMode ? 'Light Mode' : 'Night Mode'}
             </button>
-            <div className="self-center text-2xl font-semibold">
+            <div className="self-center text-2xl font-semibold bg-slate-300">
               <label htmlFor="wpm">WPM: </label>
               <input 
                 id="wpm" 
